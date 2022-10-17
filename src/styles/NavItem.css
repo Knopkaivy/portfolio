@@ -1,0 +1,15 @@
+.NavItem {
+  color: var(--color-grey-dark);
+  font-size: 2.4rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-right: 12rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.NavItem:hover {
+  color: var(--color-red);
+}
+.NavItem-active {
+  color: var(--color-red);
+}
