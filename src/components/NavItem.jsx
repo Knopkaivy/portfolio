@@ -8,7 +8,7 @@ const NavItem = ({ isActive, name, setActiveItem }) => {
   };
   return (
     <NavLink
-      to=""
+      to={name === 'hi' ? '/' : name}
       className={`NavItem ${isActive && 'NavItem-active'}`}
       onClick={handleSetActiveItem}
     >
