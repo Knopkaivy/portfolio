@@ -1,3 +1,45 @@
 .About {
-  background-color: bisque;
+  width: 100;
+  height: 100%;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.About__imageContainer {
+  width: 100%;
+  max-width: 32rem;
+  max-height: 32rem;
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
+.About__image {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.About__description {
+  max-width: 44rem;
+  margin-bottom: 4rem;
+  text-align: end;
+}
+.About__seeMore {
+  margin-bottom: 4rem;
+}
+.About__subheader {
+  color: var(--color-red);
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+.About__linkList {
+  list-style-type: none;
+}
+.About__linkItem {
+  text-align: end;
+}
+.About__linkItem a {
+  text-decoration: none;
+  font-size: 2rem;
 }
