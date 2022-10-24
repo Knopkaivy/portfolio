@@ -7,16 +7,19 @@
   width: 50%;
   height: 100%;
   margin-left: auto;
-  background-color: bisque;
+  padding: 0 16rem;
+  /* background-color: bisque; */
 }
 
 @media screen and (max-width: 1200px) {
   .App__container {
     width: 75%;
+    padding: 0 12rem;
   }
 }
 @media screen and (max-width: 992px) {
   .App__container {
     width: 100%;
+    padding: 0 8rem;
   }
 }

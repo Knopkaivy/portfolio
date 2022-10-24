@@ -13,3 +13,8 @@
 .NavItem-active {
   color: var(--color-red);
 }
+@media screen and (max-width: 992px) {
+  .NavItem {
+    margin-right: 8rem;
+  }
+}
