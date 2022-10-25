@@ -1,12 +1,13 @@
 import React from 'react';
-import TodoList from '../images/todoList.JPG';
-import TravelIpsum from '../images/travelIpsum.JPG';
-import MakeAPalette from '../images/makeAPalette.JPG';
-import PhotographerPortfolio from '../images/photographerPortfolio.JPG';
+import ProjectItem from './ProjectItem';
+import { projectList } from '../starter';
 import '../styles/Projects.css';
 
 const Projects = () => {
-  return <div className="Projects">Projects Page</div>;
+  const list = projectList.map((project) => {
+    return <ProjectItem project={project} />;
+  });
+  return <div className="Projects">{list}</div>;
 };
 
 export default Projects;
