@@ -1,17 +1,31 @@
 .Navbar {
   position: absolute;
   bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 4rem;
-  margin-bottom: 6rem;
-  padding-right: 4rem;
+  width: 100vw;
+  min-width: 500px;
+  height: 10rem;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
+  gap: 12rem;
+  padding-right: 20rem;
 }
 @media screen and (max-width: 1200px) {
   .Navbar {
-    padding: 0;
+    padding-right: 10rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Navbar {
+    padding-right: 8rem;
+    gap: 8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Navbar {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    justify-content: center;
+    gap: 4rem;
   }
 }

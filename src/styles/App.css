@@ -1,25 +1,39 @@
 .App {
   background: url('../images/bg.jpg') bottom center / cover no-repeat;
   width: 100vw;
+  min-width: 500px;
   height: 100vh;
+  overflow: hidden;
 }
 .App__container {
-  width: 50%;
-  height: 100%;
+  width: 100%;
+  height: calc(100% - 10rem);
   margin-left: auto;
-  padding: 0 16rem;
-  /* background-color: bisque; */
+  padding-right: 20rem;
+  /* background-color: plum; */
 }
 
 @media screen and (max-width: 1200px) {
   .App__container {
-    width: 75%;
-    padding: 0 12rem;
+    /* width: 60%; */
+    padding-right: 10rem;
   }
 }
 @media screen and (max-width: 992px) {
   .App__container {
-    width: 100%;
-    padding: 0 8rem;
+    padding-right: 8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .App__container {
+    /* width: 75%; */
+    padding-right: 8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .App__container {
+    /* width: 100%; */
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
