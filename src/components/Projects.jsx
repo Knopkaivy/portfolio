@@ -5,7 +5,7 @@ import '../styles/Projects.css';
 
 const Projects = () => {
   const list = projectList.map((project) => {
-    return <ProjectItem project={project} />;
+    return <ProjectItem project={project} key={project.name} />;
   });
   return <div className="Projects">{list}</div>;
 };
