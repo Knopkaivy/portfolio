@@ -3,14 +3,10 @@ import { NavLink } from 'react-router-dom';
 import '../styles/NavItem.css';
 
 const NavItem = ({ isActive, name, setActiveItem }) => {
-  let handleSetActiveItem = () => {
-    setActiveItem(name);
-  };
   return (
     <NavLink
       to={name === 'hi' ? '/' : name}
       className={`NavItem ${isActive && 'NavItem-active'}`}
-      onClick={handleSetActiveItem}
     >
       {name}
     </NavLink>

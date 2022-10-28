@@ -1,10 +1,27 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import NavItem from './NavItem';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
   const items = ['hi', 'projects', 'about', 'contacts'];
-  const [activeItem, setActiveItem] = useState('hi');
+  let location = useLocation();
+
+  const [activeItem, setActiveItem] = useState(
+    location.pathname === '/' ? 'hi' : location.pathname.slice(1)
+  );
+  useEffect(() => {
+    const path = location.pathname.slice(1);
+    let newVal;
+    if (path === '') {
+      newVal = 'hi';
+    } else if (items.includes(path)) {
+      newVal = path;
+    } else {
+      return;
+    }
+    setActiveItem(newVal);
+  }, [location]);
   const itemList = items.map((item) => {
     return (
       <NavItem
