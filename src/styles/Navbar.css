@@ -23,6 +23,7 @@
 }
 @media screen and (max-width: 576px) {
   .Navbar {
+    height: 16rem;
     padding-right: 2rem;
     padding-left: 2rem;
     justify-content: center;
