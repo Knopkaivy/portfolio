@@ -24,3 +24,8 @@
   max-width: 44rem;
   text-align: end;
 }
+@media screen and (max-width: 576px) {
+  .Home__subheader {
+    font-size: 2.4rem;
+  }
+}

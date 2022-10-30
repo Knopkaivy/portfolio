@@ -13,6 +13,7 @@
   cursor: pointer;
   transition: all 0.2s ease;
   gap: 4.8rem;
+  /* background-color: bisque; */
 }
 .ProjectItem:hover {
   transform: scale(1.005);
@@ -48,4 +49,19 @@
 }
 .ProjectItem__tools {
   text-align: end;
+}
+@media screen and (max-width: 576px) {
+  .ProjectItem {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+    /* padding: 2rem 0; */
+  }
+  .ProjectItem__imageContainer {
+    width: 40rem;
+    height: 32rem;
+  }
+  .ProjectItem__content {
+    align-items: center;
+  }
 }

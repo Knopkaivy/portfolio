@@ -1,14 +1,16 @@
 .Navbar {
   position: absolute;
   bottom: 0;
+  left: 0;
   width: 100vw;
-  min-width: 500px;
+  min-width: 375px;
   height: 10rem;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
   gap: 12rem;
   padding-right: 20rem;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 1200px) {
   .Navbar {
@@ -24,8 +26,7 @@
 @media screen and (max-width: 576px) {
   .Navbar {
     height: 16rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding: 2rem;
     justify-content: center;
     gap: 4rem;
   }

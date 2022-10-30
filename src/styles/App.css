@@ -1,6 +1,6 @@
 .App {
   width: 100vw;
-  min-width: 500px;
+  min-width: 375px;
   height: 100vh;
   background-color: rgba(255, 250, 240, 0.25);
   overflow: hidden;
@@ -24,6 +24,7 @@
   height: calc(100% - 10rem);
   margin-left: auto;
   padding-right: 20rem;
+  overflow-y: scroll;
 }
 
 @media screen and (max-width: 1200px) {
@@ -43,6 +44,8 @@
 }
 @media screen and (max-width: 576px) {
   .App__container {
+    height: calc(100% - 16rem);
+    padding: 4rem 2rem 0 2rem;
     padding-right: 2rem;
     padding-left: 2rem;
   }
