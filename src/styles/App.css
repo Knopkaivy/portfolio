@@ -26,7 +26,13 @@
   padding-right: 20rem;
   overflow-y: scroll;
 }
-
+.App__container {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.App__container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
 @media screen and (max-width: 1200px) {
   .App__container {
     padding-right: 10rem;
