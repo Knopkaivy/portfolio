@@ -6,6 +6,7 @@ import About from './components/About';
 import Contacts from './components/Contacts';
 import Bg from './images/bg.jpg';
 import './styles/App.css';
+import 'normalize.css';
 
 function App() {
   return (
