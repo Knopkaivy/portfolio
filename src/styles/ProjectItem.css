@@ -1,10 +1,8 @@
 .ProjectItem__link {
   text-decoration: none;
-  width: 100%;
   min-width: 343px;
 }
 .ProjectItem {
-  width: 100%;
   margin: 1.6rem 0;
   display: flex;
   justify-content: flex-end;
