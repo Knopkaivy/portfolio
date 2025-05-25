@@ -6,7 +6,7 @@
   margin: 1.6rem 0;
   display: flex;
   justify-content: flex-end;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: var(--color-grey-dark);
   cursor: pointer;
   transition: all 0.2s ease;
@@ -35,7 +35,7 @@
   align-items: flex-end;
 }
 .ProjectItem__name {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   font-weight: 400;
   color: var(--color-red);
   margin: 1.6rem 0 0 0;

@@ -1,7 +1,7 @@
 .Home {
   width: 100%;
   height: 100%;
-  font-size: 1.6rem;
+  font-size: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,9 +21,13 @@
   margin-bottom: 4rem;
 }
 .Home__description {
-  max-width: 44rem;
+  max-width: 60rem;
   text-align: end;
 }
+.Home__description--is-bold{
+  font-weight: 600;
+}
+
 @media screen and (max-width: 576px) {
   .Home__subheader {
     font-size: 2.4rem;
