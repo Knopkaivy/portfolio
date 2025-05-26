@@ -19,9 +19,12 @@
   object-fit: cover;
 }
 .About__description {
-  max-width: 50rem;
+  max-width: 60rem;
   margin-bottom: 4rem;
   text-align: end;
+}
+.About__description--is-italic{
+  font-style: italic;
 }
 .About__seeMore {
   margin-bottom: 4rem;

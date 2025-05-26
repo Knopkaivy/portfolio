@@ -13,12 +13,12 @@ const About = () => {
         />
       </div>
       <div className="About__description">
-        <p>Hi, my name is Tetiana Ivy.</p>
         <p>
-          I’m a Front End Developer. I love working in CSS and absolutely am
-          fascinated by React JS. I love learning new things and improve
-          processes in work and life. I am inspired by travel, nature, books,
-          architecture, photography and minimalist design.
+          I build with intention.
+        </p>
+        <br/>
+        <p>
+          Guided by minimalism and global perspective, I believe, the best design speaks quietly. Beyond the code, I bring clarity, empathy, and a sharp eye for what <span className='About__description--is-italic' >feels right</span>. I navigate complexity with calm, collaborate with care, and never lose sight of the human on the other side of the screen.
         </p>
       </div>
       <div className="About__seeMore">
