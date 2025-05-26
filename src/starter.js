@@ -5,7 +5,7 @@ import TodoList from './images/todoList.webp';
 import TravelIpsum from './images/travelIpsum.webp';
 import MakeAPalette from './images/makeAPalette.webp';
 import PhotographerPortfolio from './images/photographerPortfolio.webp';
-import ImageSearchAPI from './images/imageSearchAPI.webp';
+import ImagesAPI from './images/favoriteImagesAPI.webp';
 
 export const projectList = [
   {
@@ -34,12 +34,12 @@ export const projectList = [
     name: 'Photographer Portfolio',
     linkUrl: 'https://photographer-portfolio-demo.web.app/',
     description: 'Sample portfolio site for photographer',
-    tools: 'HTML, CSS, ReactJS',
+    tools: 'HTML, CSS, ReactJS, Redux',
   },
   {
-    image: ImageSearchAPI,
-    name: 'Image Search API',
-    linkUrl: 'https://image-search-unsplash-api.web.app/',
+    image: ImagesAPI,
+    name: 'Images API',
+    linkUrl: 'https://favorite-image-api.web.app/',
     description: 'Unsplash API image search abstraction layer',
     tools: 'HTML, CSS, ReactJS, API',
   },

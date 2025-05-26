@@ -6,9 +6,11 @@ const Contacts = () => {
     <div className="Contacts">
       <h3 className="Contacts__subheader">Reach out at:</h3>
       <ul className="Contacts__list">
-        <li className="Contacts__listItem">knokaivy@gmail.com</li>
         <li className="Contacts__listItem">
-          linkedin.com/in/tetiana-ivy-213801134/
+          <a href="mailto:knokaivy@gmail.com">knokaivy@gmail.com</a>
+        </li>
+        <li className="Contacts__listItem">
+          <a href="https://www.linkedin.com/in/tetiana-ivy-213801134/" target='_blank' rel='noopener noreferrer' >linkedin.com/in/tetiana-ivy-213801134/</a>
         </li>
       </ul>
     </div>

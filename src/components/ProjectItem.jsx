@@ -7,7 +7,7 @@ const ProjectItem = ({ project }) => {
       href={project.linkUrl}
       target="_blank"
       className="ProjectItem__link"
-      rel="noreferrer"
+      rel="noopener noreferrer"
     >
       <div className="ProjectItem">
         <div className="ProjectItem__content">
