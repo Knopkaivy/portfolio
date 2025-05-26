@@ -1,9 +1,10 @@
 .ProjectItem__link {
+  flex-basis: calc(50% - 1.6rem);
   text-decoration: none;
-  min-width: 343px;
+  min-width: 67rem;
 }
 .ProjectItem {
-  margin: 1.6rem 0;
+  margin: 0;
   display: flex;
   justify-content: flex-end;
   font-size: 2rem;
@@ -47,6 +48,9 @@
   text-align: end;
 }
 @media screen and (max-width: 576px) {
+  .ProjectItem__link{
+    min-width: 343px;
+  }
   .ProjectItem {
     flex-direction: column-reverse;
     align-items: center;
