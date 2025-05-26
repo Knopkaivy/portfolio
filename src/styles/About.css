@@ -19,7 +19,7 @@
   object-fit: cover;
 }
 .About__description {
-  max-width: 60rem;
+  max-width: 55rem;
   margin-bottom: 4rem;
   text-align: end;
 }

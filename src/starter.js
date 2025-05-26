@@ -1,11 +1,11 @@
-import BorgoSantandrea from './images/borgoSantandrea.jpg';
-import EmiliaIngram from './images/emiliaIngram.jpg';
-import BrwBar from './images/brwBar.jpg';
-import TodoList from './images/todoList.JPG';
-import TravelIpsum from './images/travelIpsum.JPG';
-import MakeAPalette from './images/makeAPalette.JPG';
-import PhotographerPortfolio from './images/photographerPortfolio.JPG';
-import ImageSearchAPI from './images/imageSearchAPI.jpg';
+import BorgoSantandrea from './images/borgoSantandrea.webp';
+import EmiliaIngram from './images/emiliaIngram.webp';
+import BrwBar from './images/brwBar.webp';
+import TodoList from './images/todoList.webp';
+import TravelIpsum from './images/travelIpsum.webp';
+import MakeAPalette from './images/makeAPalette.webp';
+import PhotographerPortfolio from './images/photographerPortfolio.webp';
+import ImageSearchAPI from './images/imageSearchAPI.webp';
 
 export const projectList = [
   {

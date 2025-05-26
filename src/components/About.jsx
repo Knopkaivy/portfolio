@@ -1,5 +1,4 @@
-import React from 'react';
-import Portrait from '../images/ti.jpg';
+import Portrait from '../images/ti.webp';
 import '../styles/About.css';
 
 const About = () => {
